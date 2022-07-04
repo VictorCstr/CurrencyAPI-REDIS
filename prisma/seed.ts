@@ -6,7 +6,7 @@ const prisma = new PrismaClient();
 
 async function main(){
     let currency = [];
-    for (let i = 0; i < 1000; i++) {
+    for (let i = 0; i < 2000; i++) {
       currency.push({
         id : randomUUID() ,
         name: faker.finance.currencyName(),
