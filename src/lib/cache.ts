@@ -3,10 +3,10 @@ import IORedis from 'ioredis'
 
 export const redis = createClient({
     socket: {
-        host:  process.env.REDIS_HOST,
+        host:"redis",
         port: 6379,
     },
-    password: process.env.REDIS_PASSWORD,
+    password:"victorcastr",
    
 })
 
